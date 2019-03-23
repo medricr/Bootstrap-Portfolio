@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+}
+
+.portfolio_container {
+    overflow: auto;
+    width: 180px;
+    margin: 10px;
+    float: left;
+}
+
+.container_pic {
+    background-image: url("http://lorempixel.com/output/people-q-c-200-200-7.jpg");
+    height: 130px;
+}
+
+#banner {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
