@@ -1,5 +1,23 @@
 body {
     overflow: hidden;
+    background: url("assets/images/pink\ dust.png")
+}
+
+.navbar-brand {
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 150px;
+    background: teal;
+}
+
+.jumbotron {
+    border: 2px solid white;
+}
+
+.navbar {
+    margin-top: -25px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid gray;
 }
 
 .portfolio_container {
@@ -10,7 +28,7 @@ body {
 }
 
 .container_pic {
-    background-image: url("http://lorempixel.com/output/people-q-c-200-200-7.jpg");
+    background-image: url("assets/images/abstract-q-g-200-200-10.jpg");
     height: 130px;
 }
 
@@ -18,4 +36,24 @@ body {
     width: 100%;
     margin: 0 auto;
     margin-top: 70px;
+}
+
+button {
+    margin: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #4aaaa5;
+    border: none;
+}
+
+hr {
+    background: white;
+}
+
+h1 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
